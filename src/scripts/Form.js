@@ -5,8 +5,9 @@ import FormElement from './FormElement';
 
 export default class Form extends React.Component {
   renderFormElement(element) {
+    debugger;
     const klass = element.type;
-    if (!klass.isFormElement) {
+    if (klass === undefined || !klass.isFormElement) {
       const { label, ...props } = element.props;
       return (
         <FormElement label={ label } { ...props }>
