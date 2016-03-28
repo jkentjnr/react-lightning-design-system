@@ -5,12 +5,14 @@ import util from './util';
 import Icon from './Icon';
 import Button from './Button';
 import Badge from './Badge';
+import Breadcrumbs from './Breadcrumbs';
 import ButtonGroup from './ButtonGroup';
 import DropdownButton from './DropdownButton';
 import DropdownMenu, { DropdownMenuItem, MenuItem } from './DropdownMenu';
 import Datepicker from './Datepicker';
 import Tab from './Tab';
 import Tabs from './Tabs';
+import SalesPath from './SalesPath';
 import Modal, { ModalHeader, ModalContent, ModalFooter } from './Modal';
 import Form from './Form';
 import Input from './Input';
@@ -36,11 +38,13 @@ export {
   Notification, Alert, Toast,
   Icon,
   Badge,
+  Breadcrumbs,
   Button, ButtonGroup,
   DropdownButton, DropdownMenu, DropdownMenuItem, MenuItem,
   Datepicker,
   Tab, Tabs,
   Modal, ModalHeader, ModalContent, ModalFooter,
+  SalesPath,
   Form, Input, Textarea, Radio, RadioGroup, Checkbox, CheckboxGroup, Select, Option,
   Picklist, PicklistItem,
   DateInput, Lookup, FieldSet,
